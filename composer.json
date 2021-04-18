@@ -1,0 +1,17 @@
+{
+    "name": "rgg78/yourPackageName",
+    "description": "your description",
+    "type": "add your type",
+    "require-dev": {
+        "ramirogg/seh": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "your user",
+            "email": "your email"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
