@@ -1,17 +1,8 @@
 {
-    "name": "rgg78/yourPackageName",
-    "description": "your description",
-    "type": "add your type",
+    "name": "rgg78/estructuraBasica",
+    "description": "estructura basica",
     "require-dev": {
         "ramirogg/seh": "dev-master"
     },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "rgg7888",
-            "email": "rgg7888@outlook.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+    "license": "MIT"
 }
