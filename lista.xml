@@ -1,0 +1,26 @@
+<list>
+    <property>
+        <letter>0</letter>
+        <meaning>box-sizing</meaning>
+    </property>
+    <property>
+        <letter>1</letter>
+        <meaning>margin</meaning>
+    </property>
+    <property>
+        <letter>2</letter>
+        <meaning>padding</meaning>
+    </property>
+    <property>
+        <letter>3</letter>
+        <meaning>font-size</meaning>
+    </property>
+    <property>
+        <letter>4</letter>
+        <meaning>font-family</meaning>
+    </property>
+    <property>
+        <letter>5</letter>
+        <meaning>font-weight</meaning>
+    </property>
+</list>

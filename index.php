@@ -2,6 +2,12 @@
 
 require_once __DIR__ . "/vendor/autoload.php";
 
+/**
+ * JavaScript_Function_Maker , Object
+ */
+$jfm = jfm("showResult");
+/** */
+
 doctype();
 html("Les",[
     head(null,[
@@ -11,8 +17,22 @@ html("Les",[
         lk("Hhttps://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap Rstylesheet"),
         //replace the path word with your favicon url
         cls(lk("Rshortcut_icon Hpath")),
-        title(null,"Estructura basica"),
-        style("Istyle")
+        title(null,"N Test"),
+        style("Istyle"),
+        script(null,[
+            $jfm->make($jfm->si("str.length==0",[
+                'document.getElementById("livesearch").innerHTML="";',
+                'document.getElementById("livesearch").style.border="0px";',
+                'return;',
+                $jfm->httpObject("xhttp"),
+                $jfm->ors("xhttp",$jfm->si("this.readyState==4 && this.status==200",[
+                    'document.getElementById("livesearch").innerHTML=this.responseText;',
+                    'document.getElementById("livesearch").style.border="1px solid #A5ACB2";'
+                ])),
+                $jfm->abrir("xhttp","GET","livesearch.php?q=","true","+str"),
+                $jfm->enviar("xhttp")
+            ]),"str")
+        ])
     ]),
     body("OloadDoc()",[
         hdr(),
@@ -32,6 +52,14 @@ html("Les",[
                     button("Tbutton Odocument.getElementById('myImage').src='./assets/imgs/pic_bulbon.gif'","Turn on the light"),
                     img("ImyImage S./assets/imgs/pic_bulboff.gif swidth:100px"),
                     button("Tbutton Odocument.getElementById('myImage').src='./assets/imgs/pic_bulboff.gif'","Turn off the light")
+                ])),"*"),
+            #
+            #prueba 3 crear una barra de busqueda que al teclear me muestre resultados
+                cls(div("Ccard*test03",div("Ccontainer",[
+                    form(null,[
+                        input("Ttext S30 OshowResult(this.value)"),
+                        div("Ilivesearch")
+                    ])
                 ])),"*")
             #
         ]),
