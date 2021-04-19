@@ -27,10 +27,11 @@ echo implode("",
         #Main
             //your code here
             sltr(".card",[
+                "M0 4px 8px 0 rgba(0,0,0,0.2)",
 
             ]),
             sltr(".container",[
-                
+
             ])
         #
         #footer
