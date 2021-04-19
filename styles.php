@@ -26,12 +26,20 @@ echo implode("",
         #
         #Main
             //your code here
-            sltr(".card",[
-                "M0 4px 8px 0 rgba(0,0,0,0.2)",
-
+            unirStyles([
+                sltr(".card",[
+                    "M0 4px 8px 0 rgba(0,0,0,0.2)",
+                    "C40%","150px auto"
+                ]),
+                sltr2(".card",[
+                    "B0.3"
+                ])
+            ]),
+            sltr(".card:hover",[
+                "M0 8px 16px 0 rgba(0,0,0,0.2)"
             ]),
             sltr(".container",[
-
+                "225px 16px"
             ])
         #
         #footer

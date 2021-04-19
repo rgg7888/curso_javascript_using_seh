@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/SEH.git",
-                "reference": "b5bc4665bf75ed0f54d1808b1c62523cdbc9565f"
+                "reference": "504a3879d80f76bc2769ab3781753cc9f550821b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/SEH/zipball/b5bc4665bf75ed0f54d1808b1c62523cdbc9565f",
-                "reference": "b5bc4665bf75ed0f54d1808b1c62523cdbc9565f",
+                "url": "https://api.github.com/repos/rgg7888/SEH/zipball/504a3879d80f76bc2769ab3781753cc9f550821b",
+                "reference": "504a3879d80f76bc2769ab3781753cc9f550821b",
                 "shasum": ""
             },
             "require-dev": {
@@ -43,7 +43,7 @@
                 "issues": "https://github.com/rgg7888/SEH/issues",
                 "source": "https://github.com/rgg7888/SEH/tree/master"
             },
-            "time": "2021-04-17T21:27:37+00:00"
+            "time": "2021-04-19T01:08:02+00:00"
         }
     ],
     "aliases": [],
