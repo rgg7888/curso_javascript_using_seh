@@ -16,7 +16,15 @@ html("Les",[
     ]),
     body("OloadDoc()",[
         hdr(),
-        main(),
+        main(null,[
+            #prueba 1 mostrando la fecha al hacer click en un boton
+                cls(div("Ctest01_card",div("Ccontainer",[
+                    h2(null,"What Can JavaScript Do ?"),
+                    cls(button("Tbutton Odocument.getElementById('demo').innerHTML_=_Date()","Click me to display Date and Time.")),
+                    p("Idemo","JavaScript can change HTML content.")
+                ])))
+            #
+        ]),
         footer(),
         script(null,changeContentOf("style","styles.php"))
     ])

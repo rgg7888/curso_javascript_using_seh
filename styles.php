@@ -26,6 +26,12 @@ echo implode("",
         #
         #Main
             //your code here
+            sltr(".card",[
+
+            ]),
+            sltr(".container",[
+                
+            ])
         #
         #footer
             //your code here
