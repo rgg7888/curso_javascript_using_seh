@@ -1,26 +1,142 @@
 <list>
-    <property>
-        <letter>0</letter>
-        <meaning>box-sizing</meaning>
-    </property>
-    <property>
-        <letter>1</letter>
-        <meaning>margin</meaning>
-    </property>
-    <property>
-        <letter>2</letter>
-        <meaning>padding</meaning>
-    </property>
-    <property>
-        <letter>3</letter>
-        <meaning>font-size</meaning>
-    </property>
-    <property>
-        <letter>4</letter>
-        <meaning>font-family</meaning>
-    </property>
-    <property>
-        <letter>5</letter>
-        <meaning>font-weight</meaning>
-    </property>
+<property>
+<letter>cero 0 = </letter>
+<meaning>box-sizing | scroll-snap-align</meaning>
+</property>
+<property>
+<letter>1 = </letter>
+<meaning>margin | vertical-align</meaning>
+</property>
+<property>
+<letter>2 = </letter>
+<meaning>padding | overflow-x</meaning>
+</property>
+<property>
+<letter>3 = </letter>
+<meaning>font-size | overflow-y</meaning>
+</property>
+<property>
+<letter>4 = </letter>
+<meaning>font-family | overflow</meaning>
+</property>
+<property>
+<letter>5 = </letter>
+<meaning>font-weight | overscroll-behavior-x</meaning>
+</property>
+<property>
+<letter>6 = </letter>
+<meaning>line-height | scroll-snap-type</meaning>
+</property>
+<property>
+<letter>7 = </letter>
+<meaning>color | scroll-snap-align</meaning>
+</property>
+<property>
+<letter>8 = </letter>
+<meaning>position | align-items</meaning>
+</property>
+<property>
+<letter>9 = </letter>
+<meaning>display | list-style</meaning>
+</property>
+<property>
+<letter>A = </letter>
+<meaning>flex-direction | flex-wrap</meaning>
+</property>
+<property>
+<letter>B = </letter>
+<meaning>justify-content | transition</meaning>
+</property>
+<property>
+<letter>C = </letter>
+<meaning>width</meaning>
+</property>
+<property>
+<letter>D = </letter>
+<meaning>min-width</meaning>
+</property>
+<property>
+<letter>E = </letter>
+<meaning>height</meaning>
+</property>
+<property>
+<letter>F = </letter>
+<meaning>text-align</meaning>
+</property>
+<property>
+<letter>G = </letter>
+<meaning>margin-top</meaning>
+</property>
+<property>
+<letter>H = </letter>
+<meaning>align-self</meaning>
+</property>
+<property>
+<letter>I = </letter>
+<meaning>max-width</meaning>
+</property>
+<property>
+<letter>J = </letter>
+<meaning>background</meaning>
+</property>
+<property>
+<letter>K = </letter>
+<meaning>top</meaning>
+</property>
+<property>
+<letter>L = </letter>
+<meaning>background-color</meaning>
+</property>
+<property>
+<letter>M = </letter>
+<meaning>box-shadow</meaning>
+</property>
+<property>
+<letter>N = </letter>
+<meaning>border</meaning>
+</property>
+<property>
+<letter>O = </letter>
+<meaning>border-radius</meaning>
+</property>
+<property>
+<letter>P = </letter>
+<meaning>text-decoration</meaning>
+</property>
+<property>
+<letter>Q = </letter>
+<meaning>left</meaning>
+</property>
+<property>
+<letter>R = </letter>
+<meaning>margin-left</meaning>
+</property>
+<property>
+<letter>S = </letter>
+<meaning>background-image</meaning>
+</property>
+<property>
+<letter>T = </letter>
+<meaning>padding-top</meaning>
+</property>
+<property>
+<letter>U = </letter>
+<meaning>padding-bottom</meaning>
+</property>
+<property>
+<letter>V = </letter>
+<meaning>margin-bottom</meaning>
+</property>
+<property>
+<letter>X = </letter>
+<meaning>background-size</meaning>
+</property>
+<property>
+<letter>Y = </letter>
+<meaning>background-position</meaning>
+</property>
+<property>
+<letter>Z = </letter>
+<meaning>background-repeat</meaning>
+</property>
 </list>

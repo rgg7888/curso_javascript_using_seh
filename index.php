@@ -20,10 +20,12 @@ html("Les",[
         title(null,"N Test"),
         style("Istyle"),
         script(null,[
-            $jfm->make($jfm->si("str.length==0",[
-                'document.getElementById("livesearch").innerHTML="";',
-                'document.getElementById("livesearch").style.border="0px";',
-                'return;',
+            $jfm->make([
+                $jfm->si("str.length==0",[
+                    'document.getElementById("livesearch").innerHTML="";',
+                    'document.getElementById("livesearch").style.border="0px";',
+                    'return;',
+                ]),
                 $jfm->httpObject("xhttp"),
                 $jfm->ors("xhttp",$jfm->si("this.readyState==4 && this.status==200",[
                     'document.getElementById("livesearch").innerHTML=this.responseText;',
@@ -31,7 +33,7 @@ html("Les",[
                 ])),
                 $jfm->abrir("xhttp","GET","livesearch.php?q=","true","+str"),
                 $jfm->enviar("xhttp")
-            ]),"str")
+            ],"str")
         ])
     ]),
     body("OloadDoc()",[
@@ -56,6 +58,7 @@ html("Les",[
             #
             #prueba 3 crear una barra de busqueda que al teclear me muestre resultados
                 cls(div("Ccard*test03",div("Ccontainer",[
+                    h2(null,"Busca la Propiedad CSS aqui : "),
                     form(null,[
                         input("Ttext S30 OshowResult(this.value)"),
                         div("Ilivesearch")
