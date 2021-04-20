@@ -39,23 +39,6 @@ html("Les",[
     body("OloadDoc()",[
         hdr(),
         main(null,[
-            #prueba 1 mostrando la fecha al hacer click en un boton
-                cls(div("Ccard*test01",div("Ccontainer",[
-                    h2(null,"What Can JavaScript Do ?"),
-                    cls(button("Tbutton Odocument.getElementById('demo').innerHTML_=_Date()","Click me to display Date and Time.")),
-                    p("Idemo","JavaScript can change HTML content.")
-                ])),"*"),
-            #
-            #prueba 2 encender un foco
-                cls(div("Ccard*test02",div("Ccontainer",[
-                    h2(null,"What Can JavaScript Do ?"),
-                    p(null,"JavaScript can change HTML attribute values."),
-                    p(null,"In this case JavaScript changes the value of the src (source) attribute of an image."),
-                    button("Tbutton Odocument.getElementById('myImage').src='./assets/imgs/pic_bulbon.gif'","Turn on the light"),
-                    img("ImyImage S./assets/imgs/pic_bulboff.gif swidth:100px"),
-                    button("Tbutton Odocument.getElementById('myImage').src='./assets/imgs/pic_bulboff.gif'","Turn off the light")
-                ])),"*"),
-            #
             #prueba 3 crear una barra de busqueda que al teclear me muestre resultados
                 cls(div("Ccard*test03",div("Ccontainer",[
                     h2(null,"Busca la Propiedad CSS aqui : "),
@@ -63,6 +46,22 @@ html("Les",[
                         input("Ttext S30 OshowResult(this.value)"),
                         div("Ilivesearch")
                     ])
+                ])),"*"),
+            #
+            div("Ccard",div("Ccontainer",h2(null,"What Can JavaScript Do ?"))),
+            #prueba 1 mostrando la fecha al hacer click en un boton
+                cls(div("Ccard*test01",div("Ccontainer",[
+                    cls(button("Tbutton Odocument.getElementById('demo').innerHTML_=_Date()","Click me to display Date and Time.")),
+                    p("Idemo","JavaScript can change HTML content.")
+                ])),"*"),
+            #
+            #prueba 2 encender un foco
+                cls(div("Ccard*test02",div("Ccontainer",[
+                    p(null,"JavaScript can change HTML attribute values."),
+                    p(null,"In this case JavaScript changes the value of the src (source) attribute of an image."),
+                    button("Tbutton Odocument.getElementById('myImage').src='./assets/imgs/pic_bulbon.gif'","Turn on the light"),
+                    img("ImyImage S./assets/imgs/pic_bulboff.gif swidth:100px"),
+                    button("Tbutton Odocument.getElementById('myImage').src='./assets/imgs/pic_bulboff.gif'","Turn off the light")
                 ])),"*")
             #
         ]),
