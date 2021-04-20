@@ -43,7 +43,7 @@ html("Les",[
                 cls(div("Ccard*test03",div("Ccontainer",[
                     h2(null,"Busca la Propiedad CSS aqui : "),
                     form(null,[
-                        input("Ttext S30 OshowResult(this.value)"),
+                        input("Cbox Ttext S30 OshowResult(this.value)"),
                         div("Ilivesearch")
                     ])
                 ])),"*"),

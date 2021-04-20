@@ -40,6 +40,9 @@ echo implode("",
             ]),
             sltr(".container",[
                 "225px 16px"
+            ]),
+            sltr(".box",[
+                "C100%"
             ])
         #
         #footer
